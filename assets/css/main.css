@@ -2135,6 +2135,7 @@ input, select, textarea {
 
 		.image.avatar {
 			border-radius: 100%;
+			
 		}
 
 			.image.avatar:before {
@@ -2143,7 +2144,7 @@ input, select, textarea {
 
 			.image.avatar img {
 				border-radius: 100%;
-				width: 100%;
+				width: 120px;
 			}
 
 /* List */
@@ -2987,6 +2988,10 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+			#header .icons a {
+				display:none;
+				color: rgba(255, 255, 255, 0.4);
+			}
 
 	}
 
@@ -3012,6 +3017,11 @@ input, select, textarea {
 				#header > .inner {
 					margin-bottom: 0;
 				}
+				#header .icons a {
+					display: none;
+					color: rgba(255, 255, 255, 0.4);
+				}
+				
 
 		/* Footer */
 
@@ -3071,6 +3081,10 @@ input, select, textarea {
 
 					#header h1 br {
 						display: inline;
+					}
+					#header .icons a {
+						display:block;
+						color: rgba(255, 255, 255, 0.4);
 					}
 
 		/* Footer */
@@ -3163,6 +3177,10 @@ input, select, textarea {
 				#header h1 {
 					font-size: 1.35em;
 				}
+				#header .icons a {
+					display:block;
+					color: rgba(255, 255, 255, 0.4);
+				}
 
 		/* Footer */
 
@@ -3207,6 +3225,10 @@ input, select, textarea {
 				#header h1 br {
 					display: none;
 				}
+				#header .icons a {
+					display:block;
+					color: rgba(255, 255, 255, 0.4);
+				}
 
 		/* Footer */
 
@@ -3218,4 +3240,9 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
-	}
+	}	
+
+	
+	
+
+
