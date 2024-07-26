@@ -2979,6 +2979,22 @@ input, select, textarea {
 		opacity: 1.0 !important;
 	}
 
+/* XXLarge */
+@media screen and (max-width: 2400px) {
+
+	/* Basic */
+
+		body, input, select, textarea {
+			font-size: 14pt;
+		}
+
+		#header .icons a {
+			display:none;
+			color: rgba(255, 255, 255, 0.4);
+		}
+
+}
+
 /* XLarge */
 
 	@media screen and (max-width: 1800px) {
